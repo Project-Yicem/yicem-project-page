@@ -4,40 +4,81 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Yicem - Bilkent Senior Project</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">  </head>
-  <body>
-
-    <header class="jumbotron text-center pt-2" style="background-color: rgb(115, 43, 182);">
-        <h1>Yicem Project</h1>
-        <div class="container">
-            <p class="p-3">Our project is a mobile application that aims to reduce food waste by creating a connection between the cafes and bakeries of university campuses and the students. Through our application, the students can buy the surplus that usually would go to waste for discounted prices from registered establishments.</p>
-        </div>
-    </header>
-
-    <section class="container mt-4">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">  
+    <style>
+        .customNavbar {
+            background-color: #FF642E;
+        }
+        .customContainer {
+            padding: 8px;
+        }
+        .list-group-item {
+            background-color: #31313128;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
+</head>
+    
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark customNavbar">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/yicem2.png" alt="Yicem Project Logo" class="d-inline-block align-top" style="max-height: 75px;">
+                </a>
+            </div>
+        </nav>
+        
+    <section class="container mt-4 customContainer">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col">
+                <h2>What is Yicem?</h2>
+                <p>Our senior project as Bilkent Computer Science students, Yicem is a mobile application that aims to reduce food waste by creating a connection between the cafes and bakeries of university campuses and the students. Through our application, the students can buy the surplus that usually would go to waste for discounted prices from registered establishments. By creating Yicem, our aim is to increase the profitability of businesses, reduce food waste, and provide people with the opportunity to purchase food at a reduced price.</p>
+            </div>
+        </div>
+        <div class="row mt-4 mb-4">
+            <div class="col-md-6 mb-4 mb-md-0">
                 <h2>Team Members</h2>
                 <ul class="list-group">
-                    <li class="list-group-item">
-                        <strong>Alperen Yılmazyıldız</strong>
-                        <p>a.yilmazyildiz@ug.bilkent.edu.tr</p>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <div>
+                            <strong>Alperen Yılmazyıldız</strong>
+                            <p>a.yilmazyildiz@ug.bilkent.edu.tr</p>
+                        </div>
+                        <a href="https://docs.google.com/document/d/1r2pxbks79AZRhFEl-6FrvyywA8vEdmSZU8QxlqnmOtA/edit?usp=sharing" target="_blank" style="text-decoration: none; color: inherit;"><i class="fas fa-book fa-lg"></i> Logbook</a>
                     </li>
-                    <li class="list-group-item">
-                        <strong>Bilgehan Yılmaz Sandıkcı</strong>
-                        <p>yilmaz.sandikci@ug.bilkent.edu.tr</p>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <div>
+                            <strong>Bilgehan Yılmaz Sandıkcı</strong>
+                            <p>yilmaz.sandikci@ug.bilkent.edu.tr</p>
+                        </div>
+                        <a href="https://docs.google.com/document/d/1IH3j_plM8-E6ymBs9BscUhCTzNsFc2MXqy4Cg_DxtE0/edit?usp=sharing" target="_blank" style="text-decoration: none; color: inherit;"><i class="fas fa-book fa-lg"></i> Logbook</a>
                     </li>
-                    <li class="list-group-item">
-                        <strong>Ömer Burak Doğan</strong>
-                        <p>burak.dogan@ug.bilkent.edu.tr</p>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <div>
+                            <strong>Ömer Burak Doğan</strong>
+                            <p>burak.dogan@ug.bilkent.edu.tr</p>
+                        </div>
+                        <a href="https://docs.google.com/document/d/1QyyG4ofCjLdIBcm9kWSwEhZqIqJPOa2mYjrD8sJGXPs/edit?usp=sharing" target="_blank" style="text-decoration: none; color: inherit;"><i class="fas fa-book fa-lg"></i> Logbook</a>
                     </li>
-                    <li class="list-group-item">
-                        <strong>Ege Çenberci</strong>
-                        <p>ege.cenberci@ug.bilkent.edu.tr</p>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <div>
+                            <strong>Ege Çenberci</strong>
+                            <p>ege.cenberci@ug.bilkent.edu.tr</p>
+                        </div>
+                        <a href="https://docs.google.com/document/d/1mODJnDC65XK9VL9fPaytfTv7WbOOkDCAkYEiyVPOsYg/edit?usp=sharing" target="_blank" style="text-decoration: none; color: inherit;"><i class="fas fa-book fa-lg"></i> Logbook</a>
                     </li>
-                    <li class="list-group-item">
-                        <strong>Yağız Özkarahan</strong>
-                        <p>yagiz.ozkarahan@ug.bilkent.edu.tr</p>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <div>
+                            <strong>Yağız Özkarahan</strong>
+                            <p>yagiz.ozkarahan@ug.bilkent.edu.tr</p>
+                        </div>
+                        <a href="https://docs.google.com/document/d/1QgPoIjeb1WXIoZuiQSfs4nl2rppbMS01hSyH3QWYchw/edit?usp=sharing" target="_blank" style="text-decoration: none; color: inherit;"><i class="fas fa-book fa-lg"></i> Logbook</a>
                     </li>
                 </ul>
             </div>
@@ -45,11 +86,12 @@
                 <h2>Project Links</h2>
                 <ul class="list-group">
                     <li class="list-group-item">
-                        <a href="https://github.com/Project-Yicem"><h4>Github Organization Page</strong></a>
+                        <a href="https://github.com/Project-Yicem"><h4>Github Organization Page</h4></a>
+                        <p>Our project's Github organization page where you can find all the repositories and documentation.</p>
                     </li>
-                    <li class="list-group-item">
-                        <strong>Project Reports:</strong>
-                        <ul class="list-group mt-2">
+                    <li class="list-group-item p-3">
+                        <h4>Project Reports:</h4>
+                        <ul class="list-group mt-2 mb-2">
                             <li class="list-group-item">
                                 <a href="https://github.com/Project-Yicem/project-yicem/blob/main/Documents%20and%20Reports/YicemTeam_Project_Information_Form.docx">Project Information Form</a><br>
                             </li>
@@ -61,6 +103,9 @@
                             </li>
                             <li class="list-group-item">
                                 <a href="https://github.com/Project-Yicem/project-yicem/blob/main/Documents%20and%20Reports/T2302_Detailed_Design_Report.pdf">Detailed Design Report</a><br>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">Design Project Final Report</a><br>
                             </li>
                         </ul>
                     </li>
